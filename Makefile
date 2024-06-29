@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/noah/writable/darker_dark
+CMAKE_SOURCE_DIR = /home/noah/GitHub/darker-dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/noah/writable/darker_dark
+CMAKE_BINARY_DIR = /home/noah/GitHub/darker-dark
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/noah/writable/darker_dark/CMakeFiles /media/noah/writable/darker_dark//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/GitHub/darker-dark/CMakeFiles /home/noah/GitHub/darker-dark//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/noah/writable/darker_dark/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/GitHub/darker-dark/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
