@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/noah/GitHub/darker-dark",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/darker_dark.dir/main.cpp.o -c /home/noah/GitHub/darker-dark/main.cpp",
+  "file": "/home/noah/GitHub/darker-dark/main.cpp",
+  "output": "CMakeFiles/darker_dark.dir/main.cpp.o"
+}
+]

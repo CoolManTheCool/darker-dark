@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/darker_dark.dir/main.cpp.o -o darker_dark  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.so -L/usr/local/lib -lraylib 

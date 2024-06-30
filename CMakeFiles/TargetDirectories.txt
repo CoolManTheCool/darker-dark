@@ -1,0 +1,3 @@
+/home/noah/GitHub/darker-dark/CMakeFiles/darker_dark.dir
+/home/noah/GitHub/darker-dark/CMakeFiles/edit_cache.dir
+/home/noah/GitHub/darker-dark/CMakeFiles/rebuild_cache.dir

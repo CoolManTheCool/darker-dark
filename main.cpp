@@ -13,15 +13,6 @@ int main(int argc, char **argv) {
         monitor = std::atoi(argv[2]);
         width = std::atoi(argv[3]);
         height = std::atoi(argv[4]);
-    } else if (argc == 1) {
-        std::cout << "Enter brightness (0-255): ";
-        std::cin >> darkness;
-        std::cout << "Enter monitor number: ";
-        std::cin >> monitor;
-        std::cout << "Enter width: ";
-        std::cin >> width;
-        std::cout << "Enter height: ";
-        std::cin >> height;
     } else {
         std::cerr << "Usage: " << argv[0] << " <brightness> <monitor_number> <width> <height>\n"
                   << "Example: 128 0 1920 1080 for a fullscreen darkener\n"
