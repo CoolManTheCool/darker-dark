@@ -23,7 +23,7 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
   endif()
 endif()
 
-# Our Project
+# Our Project COMMUNISM
 
 add_executable(${PROJECT_NAME} main.cpp)
 #set(raylib_VERBOSE 1)
